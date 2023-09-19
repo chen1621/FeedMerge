@@ -1,0 +1,162 @@
+.android-small {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  background-color: #ffffff;
+}
+
+.android-small .frame {
+  display: inline-flex;
+  align-items: flex-start;
+  position: absolute;
+  top: 43px;
+  left: 29px;
+}
+
+.android-small .menu-wrapper {
+  display: flex;
+  width: 33px;
+  height: 31px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+}
+
+.android-small .menu {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.android-small .search {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 43px;
+  left: 314px;
+}
+
+.android-small .overlap {
+  top: 234px;
+  border: 2px solid;
+  border-color: #8298b9;
+  position: absolute;
+  width: 229px;
+  height: 124px;
+  left: 66px;
+  border-radius: 10px;
+}
+
+.android-small .text-wrapper {
+  position: absolute;
+  width: 143px;
+  top: 44px;
+  left: 69px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #8298b9;
+  font-size: 17px;
+  letter-spacing: -0.34px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.android-small .vector {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50px;
+  left: 30px;
+}
+
+.android-small .overlap-group {
+  top: 395px;
+  position: absolute;
+  width: 229px;
+  height: 124px;
+  left: 66px;
+  border-radius: 10px;
+}
+
+.android-small .rectangle {
+  position: absolute;
+  width: 229px;
+  height: 124px;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #8298b9;
+}
+
+.android-small .div {
+  position: absolute;
+  width: 68px;
+  top: 46px;
+  left: 99px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #8298b9;
+  font-size: 17px;
+  letter-spacing: -0.34px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.android-small .img {
+  position: absolute;
+  width: 20px;
+  height: 16px;
+  top: 52px;
+  left: 62px;
+}
+
+.android-small .line {
+  position: absolute;
+  width: 360px;
+  height: 1px;
+  top: 88px;
+  left: 0;
+  object-fit: cover;
+}
+
+.android-small .welcome-add-your {
+  position: absolute;
+  width: 267px;
+  height: 74px;
+  top: 121px;
+  left: 65px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #64799b;
+  font-size: 18px;
+  letter-spacing: -0.36px;
+  line-height: 30px;
+}
+
+.android-small .feedmerge-logo {
+  position: absolute;
+  width: 112px;
+  height: 53px;
+  top: 29px;
+  left: 132px;
+}
+
+.android-small .feedmerge {
+  position: relative;
+  height: 53px;
+}
+
+.android-small .text-wrapper-2 {
+  position: absolute;
+  width: 157px;
+  height: 53px;
+  top: -1px;
+  left: -15px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 24px;
+  letter-spacing: -0.48px;
+  line-height: 30px;
+}

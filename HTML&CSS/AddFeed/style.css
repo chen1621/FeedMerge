@@ -1,0 +1,132 @@
+.android-small {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  background-color: #ffffff;
+}
+
+.android-small .frame {
+  display: flex;
+  width: 33px;
+  height: 31px;
+  align-items: flex-start;
+  gap: 20px;
+  position: absolute;
+  top: 43px;
+  left: 31px;
+}
+
+.android-small .menu {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.android-small .text-wrapper {
+  position: absolute;
+  width: 292px;
+  top: 81px;
+  left: 23px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #545f70;
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  line-height: 30px;
+}
+
+.android-small .overlap {
+  position: absolute;
+  width: 315px;
+  height: 41px;
+  top: 244px;
+  left: 22px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #a6b6d0;
+}
+
+.android-small .div {
+  position: absolute;
+  width: 116px;
+  top: 4px;
+  left: 15px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #a6b6d0;
+  font-size: 13px;
+  letter-spacing: -0.26px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.android-small .overlap-group {
+  position: absolute;
+  width: 315px;
+  height: 41px;
+  top: 303px;
+  left: 22px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #a6b6d0;
+}
+
+.android-small .mdi-menu-down {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 7px;
+  left: 263px;
+}
+
+.android-small .div-wrapper {
+  position: absolute;
+  width: 315px;
+  height: 41px;
+  top: 185px;
+  left: 22px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #a6b6d0;
+}
+
+.android-small .group {
+  position: absolute;
+  width: 315px;
+  height: 39px;
+  top: 372px;
+  left: 23px;
+}
+
+.android-small .overlap-group-2 {
+  position: relative;
+  width: 313px;
+  height: 39px;
+  background-color: #8298b9;
+  border-radius: 40px;
+}
+
+.android-small .text-wrapper-2 {
+  position: absolute;
+  width: 35px;
+  top: 6px;
+  left: 153px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: -0.34px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.android-small .vector {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 11px;
+  left: 126px;
+}

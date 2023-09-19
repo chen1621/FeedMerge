@@ -1,0 +1,133 @@
+.android-small {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.android-small .div {
+  background-color: #ffffff;
+  width: 360px;
+  height: 640px;
+  position: relative;
+}
+
+.android-small .text-wrapper {
+  position: absolute;
+  width: 292px;
+  top: 81px;
+  left: 30px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #545f70;
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  line-height: 30px;
+}
+
+.android-small .rectangle {
+  position: absolute;
+  width: 315px;
+  height: 41px;
+  top: 221px;
+  left: 22px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #a6b6d0;
+}
+
+.android-small .text-wrapper-2 {
+  position: absolute;
+  width: 138px;
+  height: 29px;
+  top: 185px;
+  left: 111px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #5f779c;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: -0.26px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.android-small .group {
+  position: absolute;
+  width: 195px;
+  height: 29px;
+  top: 268px;
+  left: 84px;
+}
+
+.android-small .overlap-group {
+  position: relative;
+  width: 191px;
+  height: 29px;
+}
+
+.android-small .p {
+  position: absolute;
+  width: 145px;
+  height: 29px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #5f779cab;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: -0.22px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.android-small .text-wrapper-3 {
+  position: absolute;
+  width: 54px;
+  height: 29px;
+  top: 0;
+  left: 137px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #5f779cab;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: -0.22px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.android-small .overlap-wrapper {
+  position: absolute;
+  width: 315px;
+  height: 39px;
+  top: 331px;
+  left: 23px;
+}
+
+.android-small .overlap {
+  position: relative;
+  width: 313px;
+  height: 39px;
+  background-color: #8298b9;
+  border-radius: 40px;
+}
+
+.android-small .text-wrapper-4 {
+  position: absolute;
+  width: 76px;
+  height: 27px;
+  top: 6px;
+  left: 119px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.34px;
+  line-height: 30px;
+  white-space: nowrap;
+}

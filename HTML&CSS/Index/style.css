@@ -1,0 +1,108 @@
+.android-small {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.android-small .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 360px;
+  height: 640px;
+}
+
+.android-small .overlap-group {
+  position: relative;
+  height: 640px;
+  background: linear-gradient(180deg, rgba(167, 183, 208, 0.74) 0%, rgba(167, 183, 208, 0) 63.54%);
+}
+
+.android-small .overlap {
+  position: absolute;
+  width: 225px;
+  height: 41px;
+  top: 319px;
+  left: 68px;
+  border-radius: 16px;
+}
+
+.android-small .rectangle {
+  position: absolute;
+  width: 225px;
+  height: 41px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid;
+  border-color: #5f779c;
+}
+
+.android-small .text-wrapper {
+  position: absolute;
+  width: 56px;
+  height: 27px;
+  top: 6px;
+  left: 84px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #627491;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.android-small .div {
+  position: absolute;
+  width: 225px;
+  height: 41px;
+  top: 396px;
+  left: 68px;
+  border-radius: 16px;
+}
+
+.android-small .text-wrapper-2 {
+  position: absolute;
+  width: 131px;
+  height: 27px;
+  top: 6px;
+  left: 47px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #627491;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: -0.28px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.android-small .feedmerge-logo {
+  position: absolute;
+  width: 112px;
+  height: 53px;
+  top: 145px;
+  left: 124px;
+}
+
+.android-small .feedmerge {
+  position: relative;
+  height: 53px;
+}
+
+.android-small .text-wrapper-3 {
+  position: absolute;
+  width: 157px;
+  height: 53px;
+  top: -1px;
+  left: -15px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 24px;
+  letter-spacing: -0.48px;
+  line-height: 30px;
+}
