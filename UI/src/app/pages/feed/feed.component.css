@@ -1,0 +1,52 @@
+#home-page {
+    width: 100%;
+    height: 100%;
+}
+
+#home-page-landing {
+    width: 100%;
+    height: 100%;
+    background-image: url("src/assets/home_background.png");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    min-height: 800px;
+}
+
+#feed-container {
+    width: 20%; /* Set your desired width for the feed content */
+    max-height: 80vh; /* Set a maximum height for the feed container */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    background-color: rgb(244, 250, 255); /* Set your desired background color for the feed content */
+    padding: 20px; /* Add padding as needed */
+    margin-top: 5em;
+    border-radius: 4px; /* Add rounded corners if desired */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+#landing-left {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing-left-content {
+    text-align: right;
+    padding: 1em 1em 1em 3em;
+}
+
+#landing-left-content h1 {
+    font-size: 5em;
+}
+
+#landing-left-content p {
+    font-size: 3em;
+}
+
+#landing-left-content button {
+    font-size: 2em;
+    padding: 1em;     /* Set padding to 0.5em (top and bottom), auto for left and right */
+}

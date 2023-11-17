@@ -1,15 +1,40 @@
 <div id="nav-bar">
     <div id="nav-bar-content">
-        <div id="nav-bar-left">
+        <div  id="nav-bar-left">         
+            <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+
+            <mat-drawer-container autosize>
+                <mat-drawer #snav opened="true" mode="side" position="start">
+                <mat-nav-list>
+                    <mat-list-item>
+                        <button routerLink="card" mat-button><mat-icon>rss_feed</mat-icon> Feeds </button>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <button routerLink="card" mat-button><mat-icon>folder_special</mat-icon> Collections </button>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <button routerLink="card" mat-button><mat-icon>settings</mat-icon> Settings </button>
+                    </mat-list-item>
+                </mat-nav-list>
+                </mat-drawer>
+                <mat-drawer-content>
+                    <div style="text-align: start; min-height: 600px;">
+                        <router-outlet></router-outlet>                  
+                    </div>
+                </mat-drawer-content>
+            </mat-drawer-container>
             <div class="nav-bar-items" style="font-size: 1.3em;">FeedMerge</div>
         </div>
+        
         <div id="nav-bar-right">
-            <div (click)="onLoginClick()"
-            class="nav-bar-items">Login</div>
+            <div *ngIf="!loggedIn()" (click)="onLoginClick()" class="nav-bar-items">Login</div>     <!--use ngIf directive to hide and show the navigation items-->
+            <div *ngIf="loggedIn() && userHasProfile" class="nav-bar-items">Hi, {{userDocument?.publicName}}</div>
+            <div *ngIf="loggedIn()" (click)="onLogoutClick()" class="nav-bar-items">Logout</div>
         </div>
     </div>
 </div>
 
 
+
 <router-outlet></router-outlet>
-  
+<app-profile [show]="loggedIn() && !userHasProfile"></app-profile>
